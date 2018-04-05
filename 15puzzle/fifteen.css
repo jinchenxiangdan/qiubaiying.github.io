@@ -1,0 +1,58 @@
+/*
+Shawn Jin, CSC337
+This a describe file for 15 puzzle game
+
+content:
+    fifteen.js
+    fifteen.html
+*/
+
+
+
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+
+button {
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+#puzzlearea {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position:relative;
+    /*overflow: auto;*/
+}
+
+.puzzle {
+    /* over setting   */
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: black solid 5px;
+    /*float: left;*/
+     /*display: ; */
+     /*font setting   */
+    font-size: 40pt;
+    cursor: pointer;
+    background-image: url("background.jpg");
+}
+
+.empty {
+    position: relative;
+    background-image: none;
+    /*background-color: white;*/
+    border: white solid 5px;
+    /*background-color: gray;*/
+    width: 90px;
+    height: 90px;
+}
+
+#square_4_4:hover {
+    cursor: default;
+}
+
